@@ -1,0 +1,69 @@
+.loginForm {
+	width:98%;
+	margin:auto;	
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid black;
+	border-radius:5px;
+	text-align:center;
+}
+
+.loginForm p {
+	color:black;
+	text-shadow: 1px 1px 2px white;
+	weight:400;	
+}
+
+/******** TEXT INPUT ********/
+
+::-webkit-input-placeholder {
+   color: #333;
+   font-size:80%;
+   font-style:italic;
+}
+
+.loginForm .text {
+	width:80%;
+	height:30px;
+	font-size:120%;
+	border-radius: 5px;
+	padding:5px;
+	border-width:0px 0px 2px 0px;
+	border-color: black;
+	background-color:transparent;
+	outline:none;
+}
+
+.loginForm .button {
+	width:80%;
+	height:40px;
+	font-size:110%;	
+	transition:0.3s;
+}
+
+.loginForm .button:hover {
+	background-color:black;
+	color:white;
+}
+
+.loginForm input submit {
+	background-color: cyan;	
+}
+
+.loginForm input:focus {
+    border-color: blue;
+}
+
+.loginForm select {
+	width:80%;
+	height:40px;
+	font-size:110%;	
+	transition:0.3s;	
+}
+
+.loginForm .error {
+	color:red; font-weight: 700; text-decoration:underline;	
+}
+
+.loginForm .success {
+	color:green; font-weight: 700; text-decoration:underline;	
+}
